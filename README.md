@@ -10,3 +10,9 @@ how to run the calculator:
 Run: python3 calculator.py
 Enter the first number, operator (+ - * /), then second number.
 The program prints Result: followed by the answer.
+
+#!/bin/bash
+set -e
+cd -- "$(dirname -- "$0")"
+python3 calculator.py
+
