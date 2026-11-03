@@ -10,3 +10,8 @@ how to run the calculator:
 Run: python3 calculator.py
 Enter the first number, operator (+ - * /), then second number.
 The program prints Result: followed by the answer.
+
+test command can check whether the result given is true, will display 
+PASSED or FAILED.
+if all cases pass a logic quality gate will display
+"QUALITY GATE PASSED"
